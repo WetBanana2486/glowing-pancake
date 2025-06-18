@@ -21,7 +21,7 @@ services:
     container_name: nginx-ui
     restart: unless-stopped
     ports:
-      - "3303:81"   # UI
+      - "3303:81"   # UI for Nginx Proxy Manager
       - "8081:80"   # HTTP entry（Reverse Proxy）
       - "8443:443"  # HTTPS entry
     environment:
