@@ -1,0 +1,15 @@
+# Nginx cache
+nginx/cache/
+
+# Proxy Manager data and SSL
+data/
+letsencrypt/
+
+# PostgreSQL data
+postgres/
+
+# system cache files
+.DS_Store
+*.log
+.idea/
+.vscode/
