@@ -13,3 +13,5 @@ postgres/
 *.log
 .idea/
 .vscode/
+
+.env
