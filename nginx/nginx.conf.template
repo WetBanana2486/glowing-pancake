@@ -1,0 +1,3 @@
+location /cdn/ {
+  proxy_pass ${GCP_BUCKET_URL};
+}
