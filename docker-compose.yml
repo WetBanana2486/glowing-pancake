@@ -28,6 +28,7 @@ services:
       - "3303:81"   # UI for Nginx Proxy Manager
       - "8081:80"   # HTTP entry（Reverse Proxy）
       - "8443:443"  # HTTPS entry
+
     environment:
       # Postgres parameters:
       DB_POSTGRES_HOST: 'pgdb'
