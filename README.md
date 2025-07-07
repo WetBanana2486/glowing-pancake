@@ -40,17 +40,16 @@ docker-compose up --build
 ```
 ---
 
-## 📁 Current Project Structure
+## 📁 Project Structure
+
 ```bash
-nginx-cdn/
+glowing-pancake/
 ├── docker-compose.yml
-├── .env.example            # Example environment variables
-├── nginx/
-│   ├── nginx.conf          # Nginx config using env vars
-│   └── cache/              # Cache storage (ignored by Git)
-├── start.sh(Upcoming)      # Entrypoint script for envsubst
-├── data/                   # Proxy Manager data (ignored)
-├── postgres/               # Optional DB data (ignored)
-├── letsencrypt/            # SSL (ignored)
-└── README.md
+├── .env.example
+├── .gitignore
+├── README.md
+└── nginx/
+    ├── Dockerfile
+    ├── nginx.conf.template
+    └── start.sh
 ```
